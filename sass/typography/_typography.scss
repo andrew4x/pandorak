@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+}
+
+body > div {
+    font-size: 1.8rem;
+}
+
+body {
+    color: #333;
+    font-family: $font__main;
+    @include font-size(1.8);
+    font-weight: 300;
+    line-height: 1.625;
+}
+
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
+.pandorak-home .featured-content img,
+.button {
+    transition: all 0.1s ease-in-out;
+}
+
+// Headings
+@import "headings";

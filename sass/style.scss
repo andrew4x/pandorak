@@ -1,0 +1,64 @@
+/*!
+Theme Name: Pandora K
+Theme URI: http://github.com/andrew4x/pandorak/
+Description: Pandora K personal site theme
+Author: Andrey Slesarev
+Author URI: http://andreyslesarev.com/
+Version: 0.0.1
+
+Tags:
+
+Template: genesis
+Template Version: 2.2.6
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pandorak
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "variables/variables";
+@import "mixins/mixins";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+@import "modules/fixes";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+@import "defaults/elements";
+
+/*--------------------------------------------------------------
+# Structure and Layout
+--------------------------------------------------------------*/
+@import "structure/structure";
+
+@import "header/header";
+@import "footer/footer";
